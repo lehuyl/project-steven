@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { HomeModule } from '../features/home/home.module';
+import { HomeModule } from '../features/portfolio/home.module';
 
 @NgModule({
     declarations: [],
@@ -11,9 +11,6 @@ import { HomeModule } from '../features/home/home.module';
         BrowserModule,
         BrowserAnimationsModule,
         HttpClientModule,
-
-        
-        HomeModule
     ],
     exports: [
     ]

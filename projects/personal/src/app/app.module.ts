@@ -3,14 +3,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CoreModule } from '../core/core.module';
+import { CoreModule } from './core/core.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
-import { AppComponent } from './app.component';
-import { HomeModule } from '../features/home/home.module';
+import { AppComponent } from './app/app.component';
+import { HomeModule } from './features/portfolio/home.module';
+
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
     ],
     imports: [
         AppRoutingModule,
