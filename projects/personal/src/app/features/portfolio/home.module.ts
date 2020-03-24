@@ -7,11 +7,13 @@ import { HomeComponent } from './home/home.component';
 
 // modules
 import { HomeRoutingModule } from './home-routing.module';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
     declarations: [
         ContactFormComponent,
-        HomeComponent
+        HomeComponent,
+        HeaderComponent
     ],
     imports: [
         HomeRoutingModule
