@@ -1,19 +1,53 @@
-<!-- <div class="app-font">
-        <!-- <div class="text-center">
-            <h1>Hello, I am Steven Le</h1>
-
-            Welcome to my app
-        </div> -->
-<!-- <div class="header">
-
-        </div> -->
 <div class="row">
     <div class="col-4">
         <lehuyl-header></lehuyl-header>
     </div>
-    <div class="col-8">
-        <div class="contact-form p-3">
-            <lehuyl-contact-form></lehuyl-contact-form>
+    <div class="col-8 main-container">
+        <div class="p-3 d-flex flex-column">
+            <div class="flex-item">
+                <h1 class="pl-3">
+                    This is my sample portfolio site.CSS needs a lot of work.
+                </h1>
+            </div>
+            <div class="flex-item">
+                <h1 class="pt-3 px-3">Skills</h1>
+                <div class="row px-3">
+                    <dt class="col-sm-3">Programming Languages</dt>
+                    <dd class="col-sm-9">Java, Typescript, Javascript, Python, C++, C</dd>
+
+                    <dt class="col-sm-3">Web Development</dt>
+                    <dd class="col-sm-9">Angular, NGRX, React, Html, CSS</dd>
+
+                    <dt class="col-sm-3">Backend Development</dt>
+                    <dd class="col-sm-9">NestJS, MySQl, Express, Node, MongoDB, Spring Boot</dd>
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <h1 class="px-3 pt-3">Projects</h1>
+                <div class="row px-3">
+                    <dt class="col-sm-3 px-3">
+                        <a href="https://github.com/lehuyl/covid19-global-hackathon">
+                            Covid-19 Statistics
+                        </a>
+                    </dt>
+                    <dd class="col-sm-9">{{ covidDescription }}</dd>
+
+
+                    <dt class="col-sm-3 px-3">
+                        <a href="https://phonebook-steven.herokuapp.com/">Phonebook Application</a>
+                    </dt>
+                    <dd class="col-sm-9">Basic application to experiment with React</dd>
+
+
+                </div>
+            </div>
+
+            <div class="flex-item">
+                <div class="contact-form">
+                    <lehuyl-contact-form></lehuyl-contact-form>
+                </div>
+            </div>
         </div>
     </div>
 </div>

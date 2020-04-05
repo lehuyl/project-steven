@@ -3,3 +3,22 @@
     z-index: 99;
     color: #fff;
 }
+
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.icon {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    color: hsla(0,0%,100%,.5);
+    font-size: 36px;
+    padding: 0.6em;
+}
